@@ -1,0 +1,1 @@
+{"level":"error","message":"Async failure!","method":"GET","stack":"Error: Async failure!\n    at Timeout._onTimeout (C:\\works\\docker\\index.js:42:31)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2025-09-27T10:16:35.582Z","url":"/error"}
