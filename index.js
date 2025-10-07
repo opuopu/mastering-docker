@@ -46,6 +46,12 @@ app.get('/error', async (req, res, next) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.json({
+    messgae: 'its workings',
+  });
+});
+
 app.get('/logs', (req, res) => {
   fs.readdir(logDir, (err, files) => {
     if (err) {

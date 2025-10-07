@@ -8,4 +8,4 @@ RUN mkdir -p logs
 # VOLUME [ "/usr/src/app/logs" ]
 
 EXPOSE 3000
-CMD ["node", "index.js"]
+CMD ["npx", "nodemon", "--legacy-watch", "index.js"]
